@@ -50,10 +50,10 @@
   });
   
   app.controller('MenuController', function(){
-    this.tab = 1;
+    this.menu = 1;
 
     this.setMenu = function(newValue){
-      this.tab = newValue;
+      this.menu = newValue;
     };
 
     this.isSet = function(menuName){
