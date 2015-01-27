@@ -10,12 +10,13 @@
 <body ng-controller="StoreController as store">
 	
 	<section class="menu" ng-controller="MenuController as menu">
-		<div class="container-fluid">
+		<div class="container-fluid main">
 		<ul class="nav nav-pills">
 			<li ng-class="{ active: menu.isSet(1) }"><a href ng-click="menu.setMenu(1)">Scales</a></li>
     		<li ng-class="{ active: menu.isSet(2) }"><a href ng-click="menu.setMenu(2)">Chords</a></li>
     		<li ng-class="{ active: menu.isSet(3) }"><a href ng-click="menu.setMenu(3)">Wheel</a></li>
-    		<li ng-class="{ active: menu.isSet(4) }"><a href ng-click="menu.setMenu(4)">Questionares</a></li>
+    		<li ng-class="{ active: menu.isSet(4) }"><a href ng-click="menu.setMenu(4)">Calculator</a></li>
+    		<li ng-class="{ active: menu.isSet(5) }"><a href ng-click="menu.setMenu(5)">Questionares</a></li>
     	</ul>
     	<div ng-show="menu.isSet(1)">
 			<div class="container-fluid">
@@ -24,7 +25,7 @@
 						<!--Tabs-->
 				<section class="tab" ng-controller="TabController as tab">
 				
-  					<ul class="nav nav-pills">
+  					<ul class="nav nav-pills notes">
     					<li ng-class="{ active: tab.isSet(1) }"><a href ng-click="tab.setTab(1)">A</a></li>
     					<li ng-class="{ active: tab.isSet(2) }"><a href ng-click="tab.setTab(2)">B</a></li>
     					<li ng-class="{ active: tab.isSet(3) }"><a href ng-click="tab.setTab(3)">C</a></li>
@@ -106,11 +107,18 @@
 		<div ng-show="menu.isSet(3)">
 			<div class="container-fluid">
 				<h1>Third menu item clicked</h1>
+				<div class="music-wheel"></div>
 			</div>
 		</div>
 		<div ng-show="menu.isSet(4)">
 			<div class="container-fluid">
-				<h1>Fourth menu item clicked</h1>
+				<h1>calculator can go in here</h1>
+			</div>
+		</div>
+		<div ng-show="menu.isSet(5)">
+			<div class="container-fluid">
+				<h1>Fifth menu item clicked</h1>
+				
 			</div>
 		</div>
 		</div><!--end of container-fluid for main navigation -->

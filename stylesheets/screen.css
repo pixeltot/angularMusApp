@@ -263,18 +263,18 @@ a, a:focus {
   outline: 0;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 li {
   padding: 12px 0;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .container-fluid {
   max-width: 950px;
   min-width: 850px;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
