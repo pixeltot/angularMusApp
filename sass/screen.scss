@@ -1,0 +1,40 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "partials/colors";
+@import "partials/grid";
+@import "partials/pixeltot";
+@import "partials/typography";
+@import "partials/gradients";
+
+html, body{
+  background:$color-one;
+  color:$color-twelve;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+img{
+  max-height:200px !important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: rgb(90, 103, 107);
+}
+
+a, a:focus{outline:0;}
+
+li{
+  padding:12px 0;
+}
+.container-fluid{
+  max-width:950px;
+  min-width:850px;
+}
+.music-wheel {
+    background: url("../images/musicwheel.jpg") no-repeat scroll 0 0 / 600px auto rgba(0, 0, 0, 0);
+    max-width: 600px;
+    min-height: 600px;
+    width: 100%;
+}

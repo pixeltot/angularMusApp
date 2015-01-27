@@ -1,0 +1,48 @@
+/* line 3, ../../sass/partials/gradients.scss */
+.gradient-1 {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #191e1e;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 10px 0 0;
+  background: #111414;
+  /* Old browsers */
+  background: linear-gradient(-45deg, #111414 0%, #141e1e 100%) !important;
+  background: -moz-linear-gradient(-45deg, #111414 0%, #141e1e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #111414), color-stop(100%, #141e1e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #111414 0%, #141e1e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #111414 0%, #141e1e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #111414 0%, #141e1e 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #111414 0%, #141e1e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#141e1e',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+/* line 23, ../../sass/partials/gradients.scss */
+.gradient-2 {
+  background: #141e1e;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #141e1e 0%, #111414 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #141e1e), color-stop(100%, #111414));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #141e1e 0%, #111414 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #141e1e 0%, #111414 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #141e1e 0%, #111414 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #141e1e 0%, #111414 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141e1e', endColorstr='#111414',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
