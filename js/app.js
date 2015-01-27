@@ -49,6 +49,18 @@
     };
   });
   
+  app.controller('MenuController', function(){
+    this.tab = 1;
+
+    this.setMenu = function(newValue){
+      this.tab = newValue;
+    };
+
+    this.isSet = function(menuName){
+      return this.menu === menuName;
+    };
+  });
+  
   app.directive('pixeltotBanner', function(){
   	return{
   		restrict:'E',
