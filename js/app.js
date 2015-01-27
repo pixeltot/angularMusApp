@@ -2,7 +2,7 @@
  
   var app = angular.module('musicApp', []);
   var gems = [
-   {name: 'Gunman', 
+   {name: 'A', 
    price: 2.95, 
    description:"This is one cool gunman poster",
    shine: 8,
@@ -12,7 +12,7 @@
    "images/gunman-2.jpg",
    "images/gunman-3.jpg"]
    },
-   {name:'Workout', 
+   {name:'B', 
    price: 2.95, 
    description:"Work it baby",
    shine: 4,
