@@ -256,7 +256,7 @@ html, body {
 
 /* line 23, ../sass/screen.scss */
 .container-fluid {
-  min-width: 480px;
+  margin-bottom: 100px;
 }
 
 /* line 26, ../sass/screen.scss */
@@ -274,7 +274,12 @@ a, a:focus {
   outline: 0;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
+.row {
+  margin-bottom: 35px;
+}
+
+/* line 38, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
@@ -294,22 +299,23 @@ a, a:focus {
     width: 50px;
 }
 */
-/* line 55, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 ol.rnm {
-  display: inline-block;
+  display: block;
   margin: 0;
   padding: 0;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 ol.rnm li {
-  display: inline;
+  display: inline-block;
   padding: 12px 17px;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .mode-name {
-  padding-top: 38px;
+  padding-left: 10px;
+  padding-top: 15px;
   position: absolute;
   transform: rotate(40deg);
 }

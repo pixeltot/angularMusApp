@@ -21,7 +21,7 @@ html, body{
     min-height: 130px;
 }
 .container-fluid {
-    min-width: 480px;
+    margin-bottom:100px;
 }
 img{
   max-height:200px !important;
@@ -32,14 +32,15 @@ img{
 a, a:focus{
   outline:0;
 }
-
+.row{
+ margin-bottom:35px; 
+}
 .music-wheel {
     background: url("../images/musicwheel.jpg") no-repeat scroll 0 0 / 600px auto rgba(0, 0, 0, 0);
     max-width: 600px;
     min-height: 600px;
     width: 100%;
 }
-
 /*
 .circle-bg-note {
     background: none repeat scroll 0 0 rgb(200, 200, 200);
@@ -53,16 +54,17 @@ a, a:focus{
 }
 */
 ol.rnm {
-    display: inline-block;
+    display: block;
     margin: 0;
     padding: 0;
 }
 ol.rnm li{
-  display:inline;
+  display:inline-block;
   padding:12px 17px;
 }
 .mode-name {
-    padding-top: 38px;
+    padding-left: 10px;
+    padding-top: 15px;
     position: absolute;
     transform: rotate(40deg);
 }
