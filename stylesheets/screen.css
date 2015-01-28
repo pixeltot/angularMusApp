@@ -280,11 +280,21 @@ a, a:focus {
 }
 
 /* line 38, ../sass/screen.scss */
+.menu {
+  margin-top: 15px;
+}
+
+/* line 41, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
   min-height: 600px;
   width: 100%;
+}
+
+/* line 47, ../sass/screen.scss */
+ul.notes li a {
+  border-radius: 50%;
 }
 
 /*
@@ -299,20 +309,20 @@ a, a:focus {
     width: 50px;
 }
 */
-/* line 56, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 ol.rnm {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 ol.rnm li {
   display: inline-block;
   padding: 12px 17px;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .mode-name {
   padding-left: 10px;
   padding-top: 15px;
