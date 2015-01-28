@@ -246,35 +246,35 @@ html, body {
   height: 100%;
   width: 100%;
   position: absolute;
+  font-family: 'open sans';
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
+.col-sm-12 {
+  min-height: 130px;
+}
+
+/* line 23, ../sass/screen.scss */
+.container-fluid {
+  min-width: 480px;
+}
+
+/* line 26, ../sass/screen.scss */
 img {
   max-height: 200px !important;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #5a676b;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 a, a:focus {
   outline: 0;
 }
 
-/* line 28, ../sass/screen.scss */
-li {
-  padding: 12px 0;
-}
-
-/* line 31, ../sass/screen.scss */
-.container-fluid {
-  max-width: 950px;
-  min-width: 850px;
-}
-
-/* line 35, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
@@ -282,14 +282,34 @@ li {
   width: 100%;
 }
 
-/* line 41, ../sass/screen.scss */
+/*
 .circle-bg-note {
-  background: none repeat scroll 0 0 #c8c8c8;
-  border-radius: 50%;
-  color: black;
-  height: 50px;
-  margin: 0 auto;
-  padding-top: 5px;
-  text-align: center;
-  width: 50px;
+    background: none repeat scroll 0 0 rgb(200, 200, 200);
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    width: 50px;
+}
+*/
+/* line 55, ../sass/screen.scss */
+ol.rnm {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 60, ../sass/screen.scss */
+ol.rnm li {
+  display: inline;
+  padding: 12px 17px;
+}
+
+/* line 64, ../sass/screen.scss */
+.mode-name {
+  padding-top: 38px;
+  position: absolute;
+  transform: rotate(40deg);
 }
