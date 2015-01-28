@@ -258,26 +258,38 @@ img {
   background-color: #5a676b;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 a, a:focus {
   outline: 0;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 li {
   padding: 12px 0;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .container-fluid {
   max-width: 950px;
   min-width: 850px;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
   min-height: 600px;
   width: 100%;
+}
+
+/* line 41, ../sass/screen.scss */
+.circle-bg-note {
+  background: none repeat scroll 0 0 #c8c8c8;
+  border-radius: 50%;
+  color: black;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 5px;
+  text-align: center;
+  width: 50px;
 }

@@ -22,7 +22,6 @@ img{
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: rgb(90, 103, 107);
 }
-
 a, a:focus{
   outline:0;
 }
@@ -38,4 +37,14 @@ li{
     max-width: 600px;
     min-height: 600px;
     width: 100%;
+}
+.circle-bg-note {
+    background: none repeat scroll 0 0 rgb(200, 200, 200);
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    width: 50px;
 }
