@@ -312,16 +312,23 @@ a, a:focus {
 
 /* line 46, ../sass/screen.scss */
 .row {
-  padding-bottom: 27px;
   color: black;
+  padding-bottom: 50px;
+  border-bottom: 1px solid gainsboro;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
+small {
+  vertical-align: top;
+  color: #000 !important;
+}
+
+/* line 55, ../sass/screen.scss */
 .menu {
   margin-top: 15px;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
@@ -329,9 +336,9 @@ a, a:focus {
   width: 100%;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 ul.notes li a {
-  border-radius: 10px 10px 0 0;
+  border-radius: 50%;
 }
 
 /*
@@ -346,24 +353,24 @@ ul.notes li a {
     width: 50px;
 }
 */
-/* line 74, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 ol.rnm {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 ol.rnm li {
   display: inline-block;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .rnm > li {
   width: 35px;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .mode-name {
   display: block;
   position: relative;

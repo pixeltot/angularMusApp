@@ -61,16 +61,40 @@
     };
   });
   
-  app.directive('nameA', function(){
+  app.directive('keyA', function(){
   	return{
   		restrict:'E',
-  		templateUrl: "name-a.html"
+  		templateUrl: "keys/key-a.html"
   	}	
   });
-  app.directive('nameB', function(){
+  app.directive('keyB', function(){
   	return{
   		restrict:'E',
-  		templateUrl: "name-b.html"
+  		templateUrl: "keys/key-b.html"
+  	}	
+  });
+   app.directive('keyC', function(){
+  	return{
+  		restrict:'E',
+  		templateUrl: "keys/key-c.html"
+  	}	
+  });
+   app.directive('keyD', function(){
+  	return{
+  		restrict:'E',
+  		templateUrl: "keys/key-d.html"
+  	}	
+  });
+  app.directive('keyE', function(){
+  	return{
+  		restrict:'E',
+  		templateUrl: "keys/key-e.html"
+  	}	
+  });
+  app.directive('keyF', function(){
+  	return{
+  		restrict:'E',
+  		templateUrl: "keys/key-f.html"
   	}	
   });
   

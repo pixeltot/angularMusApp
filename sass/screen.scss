@@ -43,9 +43,14 @@ img{
 a, a:focus{
   outline:0;
 }
-.row{
-padding-bottom:27px; 
- color:black;
+.row {
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+small{
+  vertical-align:top;
+  color:$color-black !important;
 }
 .menu {
     margin-top: 15px;
@@ -57,7 +62,7 @@ padding-bottom:27px;
     width: 100%;
 }
 ul.notes li a {
-    border-radius: 10px 10px 0 0;
+    border-radius: 50%;
 }
 /*
 .circle-bg-note {
