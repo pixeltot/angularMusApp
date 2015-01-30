@@ -50,7 +50,7 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background: #141414;
+  background: #e6e6e6;
 }
 
 /* line 13, ../sass/partials/pixeltot.scss */
@@ -239,10 +239,30 @@
   /* IE6-9 fallback on horizontal gradient */
 }
 
+/* line 34, ../sass/partials/gradients.scss */
+.gradient-3 {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #dce6e7 77%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(77%, #dce6e7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #dce6e7 77%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #dce6e7 77%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #dce6e7 77%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #dce6e7 77%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dce6e7',GradientType=0 );
+  /* IE6-9 */
+}
+
 /* line 12, ../sass/screen.scss */
 html, body {
-  background: #141414;
-  color: gainsboro;
+  background: #fff;
+  color: #e6e6e6;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -250,41 +270,58 @@ html, body {
 }
 
 /* line 20, ../sass/screen.scss */
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+/* line 23, ../sass/screen.scss */
+h2 {
+  color: #787878;
+}
+
+/* line 26, ../sass/screen.scss */
 .col-sm-12 {
   min-height: 130px;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .container-fluid {
   margin-bottom: 100px;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 img {
   max-height: 200px !important;
 }
 
-/* line 29, ../sass/screen.scss */
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  background-color: #5a676b;
+/* line 35, ../sass/screen.scss */
+.nav {
+  margin: 10px 0 0;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #e3e7e7;
+  color: #282828;
+}
+
+/* line 43, ../sass/screen.scss */
 a, a:focus {
   outline: 0;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .row {
-  margin-bottom: 35px;
+  padding-bottom: 27px;
+  color: black;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .menu {
   margin-top: 15px;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .music-wheel {
   background: url("../images/musicwheel.jpg") no-repeat scroll 0 0/600px auto transparent;
   max-width: 600px;
@@ -292,9 +329,9 @@ a, a:focus {
   width: 100%;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 ul.notes li a {
-  border-radius: 50%;
+  border-radius: 10px 10px 0 0;
 }
 
 /*
@@ -309,23 +346,27 @@ ul.notes li a {
     width: 50px;
 }
 */
-/* line 62, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 ol.rnm {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 ol.rnm li {
   display: inline-block;
-  padding: 12px 17px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
+.rnm > li {
+  width: 35px;
+}
+
+/* line 85, ../sass/screen.scss */
 .mode-name {
-  padding-left: 10px;
-  padding-top: 15px;
-  position: absolute;
+  display: block;
+  position: relative;
+  top: 10px;
   transform: rotate(40deg);
 }

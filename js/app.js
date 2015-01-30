@@ -61,10 +61,16 @@
     };
   });
   
-  app.directive('pixeltotBanner', function(){
+  app.directive('nameA', function(){
   	return{
   		restrict:'E',
-  		templateUrl: "pixeltot-banner.html"
+  		templateUrl: "name-a.html"
+  	}	
+  });
+  app.directive('nameB', function(){
+  	return{
+  		restrict:'E',
+  		templateUrl: "name-b.html"
   	}	
   });
   
